@@ -1,0 +1,67 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.logo{
+    float: right;
+    margin-right: 40%;
+}
+
+.photo{
+    float: right;
+    margin-right: 40%;
+}
+
+.about{
+    float: right;
+    margin-right: 40%;
+}
+
+.title{
+    float: right;
+    margin-right: 40%;
+}
+
+.paragraph{
+    float: right;
+    margin-right: 40%;
+}
+.contact{
+    float: right;
+    margin-right: 40%;
+}
+
+.partners{
+    float: right;
+    margin-right: 40%;
+}
+
+/* sm devices */ 
+@media (min-width: 576px){
+    body{
+        background-color: red;
+    }
+}
+@media (min-width:768px){
+    body{
+        background-color: orange;
+    }
+        .grey{
+        height: 150px;
+}
+@media (min-width: 922){
+    body{
+        background-color: green;
+    }
+    .grey{
+        height: 150px;
+    }
+}
+
+/* xl */ 
+@media (min-width:1200px){
+    body{
+        background-color: blue;
+    }
+}
