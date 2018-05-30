@@ -1,40 +1,59 @@
 body{
     font-family: 'Montserrat', sans-serif;
     color: black;
+    text-align: center;
 }
 
+.container{
+    width: 100%;
+}
 .logo{
-    float: right;
-    margin-right: 40%;
+    /*margin-right: 40%;
+    margin-left: 40%;*/
+    width: 100%;
+    /*max-width: 60%;
+    min-width: 60%;*/
+    background-color: chartreuse;
 }
 
 .photo{
-    float: right;
-    margin-right: 40%;
+    width: 100%;
+    /*margin-right: 40%;
+    margin-left: 40%;
+    max-width: 60%;
+    min-width: 30%;*/
 }
 
 .about{
-    float: right;
-    margin-right: 40%;
-}
-
-.title{
-    float: right;
-    margin-right: 40%;
+    /*margin-right: 40%;
+    margin-left: 40%;
+    max-width: 60%;
+    min-width: 40%;*/
+    width: 100%;
+    background-color: aqua;
 }
 
 .paragraph{
-    float: right;
-    margin-right: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
+
 .contact{
-    float: right;
-    margin-right: 40%;
+   /* margin-right: 40%;
+    margin-left: 40%;
+    max-width: 50%;
+    min-width: 40%;*/
+    width: 100%;
+    background-color: aquamarine;
 }
 
 .partners{
-    float: right;
-    margin-right: 40%;
+    /*margin-right: 40%;
+    margin-left: 40%;
+    max-width: 50%;
+    min-width: 40%;*/
+    width: 100%;
+    background-color: blueviolet;
 }
 
 /* sm devices */ 
