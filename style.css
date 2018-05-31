@@ -13,9 +13,17 @@ body{
     width: 100%;
     /*max-width: 60%;
     min-width: 60%;*/
-    background-color: chartreuse;
+
 }
 
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover{
+    color:crimson;
+}
 
 .photo{
     width: 100%;
@@ -31,7 +39,7 @@ body{
     max-width: 60%;
     min-width: 40%;*/
     width: 100%;
-    background-color: aqua;
+
 }
 
 .paragraph{
@@ -45,7 +53,7 @@ body{
     max-width: 50%;
     min-width: 40%;*/
     width: 100%;
-    background-color: aquamarine;
+
 }
 
 .partners{
@@ -54,10 +62,10 @@ body{
     max-width: 50%;
     min-width: 40%;*/
     width: 100%;
-    background-color: blueviolet;
+
 }
 
-/* sm devices */ 
+/* sm devices */ /*
 @media (min-width: 576px){
     body{
         background-color: red;
@@ -77,11 +85,11 @@ body{
     .grey{
         height: 150px;
     }
-}
+} */
 
-/* xl */ 
+/* xl */ /*
 @media (min-width:1200px){
     body{
         background-color: blue;
     }
-}
+} */
